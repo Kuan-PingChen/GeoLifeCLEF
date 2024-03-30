@@ -11,8 +11,8 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset
 
-from data.GLC23PatchesProviders import MetaPatchProvider
-from data.GLC23TimeSeriesProviders import MetaTimeSeriesProvider
+from data000.GLC23PatchesProviders import MetaPatchProvider
+from data000.GLC23TimeSeriesProviders import MetaTimeSeriesProvider
 
 class PatchesDataset(Dataset):
     def __init__(
